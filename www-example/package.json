@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "harp server --port 5002 ./public"
+    "start": "./node_modules/.bin/harp server --port 5002 ./public"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "harp": "^0.14.0",
+    "harp": "~0.14.0",
     "supervisor": "^0.6.0"
   }
 }
