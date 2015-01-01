@@ -1,0 +1,6 @@
+{
+  "rules": [
+    "^/api/(.*)$ http://localhost:3002/api/$1 [P]",
+    "^/static/(.*)$ https://2-5pt.ngrok.com/$1 [P]"
+  ]
+}
