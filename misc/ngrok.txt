@@ -1,0 +1,6 @@
+./ngrok -subdomain=2-5pt 5002; # display static
+./ngrok -subdomain=3-5pt 5003; # display api
+
+./ngrok -subdomain=1-5pt 3001; # display loopback gateway
+./ngrok -subdomain=3-5pt 3002; # display loopback test api
+
