@@ -1,0 +1,16 @@
+{
+  "name": "www-example",
+  "version": "0.0.0",
+  "description": "This is the place for your application front-end files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "harp server --port 5002 ./public"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "harp": "^0.14.0",
+    "supervisor": "^0.6.0"
+  }
+}

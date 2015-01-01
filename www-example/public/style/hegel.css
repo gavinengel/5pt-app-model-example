@@ -1,0 +1,235 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
+html, body, body div, h1, h2, h3, h4, p, pre, em, img, b, i, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 14px;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+  font-size: 100%;
+}
+
+
+body {
+background: #F5F5F5;
+ color: #000;
+ margin: 0px;
+ font-family: Ubuntu,serif;
+ font-size: 12px;
+
+}
+
+
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: #D32F2F;
+}
+
+h1 {
+  font-size: 2.3em;
+  font-weight: bold;
+  color: #fafafa;
+}
+
+h1 a a:visited a:hover{
+  text-decoration: none;
+  color: red;
+}
+
+h2 {
+
+  color: #666666;
+  font-family: ubuntu;
+  font-weight: bold;
+  font-size: 3em;
+}
+label{
+  font-size: 1.3em;
+}
+
+.interact {
+  color: #335278;
+  font-size: 1.3em;
+
+}
+.displayemail {
+  color: #666;
+  font-size: .33em;
+}
+.right {
+  float: right;
+}
+::-webkit-input-placeholder {
+ font-size: 1.1em;
+ color: #d0cdfa;
+ text-align: center;
+}
+:-moz-placeholder { /* older Firefox*/
+ font-size:14px;
+ color: #d0cdfa;
+ text-align: center;
+}
+::-moz-placeholder { /* Firefox 19+ */
+ font-size: 14px;
+ color: #d0cdfa;
+ text-transform: none;
+ text-align: center;
+ font-weight: normal;
+}
+:-ms-input-placeholder {
+ font-size: 14px;
+ color: #d0cdfa;
+ text-transform: none;
+ text-align: center;
+ font-weight: normal;
+}
+
+
+select {
+    width: 100%; /* Set width. Do not set height else it will fail in IE8-10. Use padding for height. */
+    color: #1695AE;
+    font-weight: normal;
+    font-size: 1.3em;
+    line-height:1.4em;
+    padding: 6px; /* use this to set a specific height for your dropdown (DO NOT use the attribute 'height') */
+    border: none;
+    cursor: pointer;
+    text-indent: 0.01px;
+    text-align: center;
+    text-overflow: "";
+    -webkit-appearance: none; /* gets rid of default appearance in Webkit browsers*/
+    -moz-appearance: none; /* Get rid of default appearance for older Firefox browsers */
+    -ms-appearance: none; /* get rid of default appearance for IE8, 9 and 10*/
+    appearance: none;
+}
+select option {
+    background: #fff; /* style the dropdown bg color */
+}
+
+
+input[type=text] {
+background: #ffffff;
+border: 0px none;
+border-radius: 3px;
+box-shadow: 0 0 3px #fff inset;
+color: #000;
+padding: 5px 10px;
+outline: none;
+width: 60%;
+margin: auto;
+font-weight: normal;
+font-size: 1.8em;
+}
+
+
+.appheader{
+  background: #ffffff;
+  border: none;
+  border-color: #9E9E9E;
+  border-top-right-radius: 0px;
+  border-top-left-radius:   0px;
+  border-bottom: .5px solid;
+  text-align: center;
+  color: #01579B;
+}
+
+.appbody{
+  padding: 8px  font-weight: normal;
+  font-size 1.3:
+}
+.main{
+  color: #666666;
+  width: 100%;
+  max-width: 481px;
+  margin: auto;
+  background: #ffffff;
+  border-color: #eeeeee;
+  border: .5px solid;
+  text-align: center;
+  padding: 8px;
+  font-size: .75em;
+
+}
+
+.title {
+  color: #ffffff;
+  font-size: 3em;
+  text-decoration: none;
+  font-family: Ubuntu;
+  font-weight: bold;
+  border-bottom: 1px solid;
+  border-color: #cccccc;
+  padding: 8px;
+
+
+}
+
+
+
+input{
+  color:#000000;
+
+}
+
+.right{
+  float: right;
+}
+
+.btn-next{
+  background: #acf0f2;
+  color: #666;
+}
+
+.eyes{
+  color: #70B85D;
+}
+
+.btn-green{
+  background: #259b24;
+  color: #fff;
+}
+
+.upperright{
+  float: left;
+}
+
+.GetRandomWord{
+  font-size: 1.8em;
+  color: #EB7F00;
+}
+
+.notnotnot{
+  color: #168039;
+}
+
+.subject{
+  color: #225378;
+}
+
+.whitetext{
+  color: white;
+}
+
+.whitetext a a:visited a:hover{
+  color: white;
+}
+.isare {
+  border-bottom: none;
+  border-top: none;
+  color: #666;
+  padding: 0px;
+  font-size: 1.8em;
+  background: #fff;
+
+}
+.phenomenal{
+  float: none;
+  width: 30px;
+  height: 45px;
+}
+
+#getantonyms{
+  display: none;
+}

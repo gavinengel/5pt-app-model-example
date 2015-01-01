@@ -1,0 +1,29 @@
+{
+  "name": "hegel",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "tense": {
+      "type": "string"
+    },
+    "ts": {
+      "type": "string"
+    },
+    "synthesis": {
+      "type": "string"
+    },
+    "doublenegative": {
+      "type": "string"
+    },
+    "negative": {
+      "type": "string"
+    },
+    "thought": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

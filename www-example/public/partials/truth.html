@@ -1,0 +1,49 @@
+
+
+
+
+
+  <div class="evolution" >
+    <form ng-submit="processTruth();">
+          <input ng-model="synthesis" focus="true" class="form-control adjective" type="text" placeholder="What?" required>
+                    <br>
+          &nbsp;
+          <br>
+             <div ng-click="toggleisare();" class="isare"> {{tenses}} </div>
+
+          &nbsp;
+          <br>
+          <h3>{{doublenegative}}</span> and not <span class="not"></span>{{negative}}</h3>
+          <br>
+
+<br>&nbsp;<br>
+        <a href="#"><button type="button" class="btn btn-default" ng-click="alert('bob');"><span class="glyphicon glyphicon-hand-left"></span>&nbsp;Home</button></a><button type="submit" class="btn btn-default">Next <span class="glyphicon glyphicon-hand-right"></span></button></a>  </form>
+
+    </form>
+  <!--
+    <h2>{{SubjectIsNot}}</h2>
+    <br>
+    <div ng-click="toggleisare();" class="isare">
+      {{isaretoggle}}
+    </div>
+    <br>
+    <span class="notnotwhat">{{notnotwhat}}</span>
+      <input ng-model="notnotnot" focus="true" class="form-control adjective" type="text" placeholder="What?" required>
+      <a href="#/isnot" ng-click="getAntonyms();"><span class="interact">{{suggest}}</span></a>
+
+      <select ng-model="suggestions" selected-item="selected.item" ng-change="setnotnotnot();" ng-options="ant.syn for ant in ants" ng-show="showants" style="width:60%"></select>
+
+      <h3><a href="#/"><button class="btn btn-warning"><span class="glyphicon glyphicon-hand-left"></span>&nbsp;Refactor</button></a><button type="submit" class="btn btn-success" ng-click="processNotNot();">Truth <span class="glyphicon glyphicon-hand-right"></span></button></a></h3>
+  </form>
+
+
+
+  <h3 class="truth">It's not that <br>
+    <span class="subject">{{Subject}}</span><br>
+     <em> {{IsAre}} </em> <br>
+     <span class="notnotnot">{{NotNotNot}}</span> ... </h3>
+
+     <br>&nbsp;<br>
+     <h3><a href="#/"><button class="btn btn-primary"><span class="glyphicon glyphicon-hand-left"></span>&nbsp;Home</button></a>
+
+-->
