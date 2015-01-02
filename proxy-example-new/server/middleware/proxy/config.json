@@ -1,5 +1,6 @@
 {
   "rules": [
-    "^/api/(.*)$ http://localhost:3002/api/$1 [P]"
+    "^/api/(.*)$ https://53greenst1-5003.terminal.com/explorer/ [P]",
+    "^/apiold/(.*)$ http://localhost:3002/api/$1 [P]"
   ]
 }
