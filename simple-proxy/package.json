@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "sudo forever start -w -m=10000 server.js; sudo forever list;"
+    "start": "npm stop; sudo forever start -a --uid 'simple-proxy' -w -m=10000 server.js; sudo forever list;",
+    "stop": "sudo forever stop simple-proxy"
   },
   "author": "",
   "license": "BSD-2-Clause",
