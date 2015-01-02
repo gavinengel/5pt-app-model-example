@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "sudo node server.js"
+    "start": "sudo forever start -w -m=10000 server.js; sudo forever list;"
   },
   "author": "",
   "license": "BSD-2-Clause",
