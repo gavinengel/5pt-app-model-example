@@ -8,6 +8,7 @@ var http = require('http')
   , site = require('./site')
   , sslCert = require('./private/ssl_cert');
 
+
 var httpsOptions = {
   key: sslCert.privateKey,
   cert: sslCert.certificate
@@ -49,7 +50,7 @@ app.set('views', path.join(__dirname, 'views'));
 // Example:
 //   app.use(loopback.static(path.resolve(__dirname', '../client')));
 
-oauth2.authenticate(['/protected', '/api', '/me'], {session: false, scope: 'demo'});
+oauth2.authenticate(['/3', '/4', '/5', '/protected', '/api', '/me', '/www', '/static'], {session: false, scope: 'demo'});
 
 // Set up login/logout forms
 app.get('/login', site.loginForm);
@@ -93,7 +94,7 @@ app.start = function() {
   var port = app.get('port');
 
   http.createServer(app).listen(port, function() {
-    console.log('Web server listening at: %s', 'http://localhost:3000/');
+    console.log('Web server listening at: %s', 'http://localhost:80/');
     https.createServer(httpsOptions, app).listen(httpsPort, function() {
       app.emit('started');
       console.log('Web server listening at: %s', app.get('url'));

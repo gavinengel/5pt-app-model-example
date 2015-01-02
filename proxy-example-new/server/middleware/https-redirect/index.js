@@ -5,7 +5,7 @@
  */
 module.exports = function(options) {
   options = options || {};
-  var httpsPort = options.httpsPort || 443;
+  var httpsPort = options.httpsPort || 80;
   return function(req, res, next) {
     if (!req.secure) {
       var parts = req.get('host').split(':');

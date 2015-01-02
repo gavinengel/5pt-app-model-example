@@ -1,6 +1,6 @@
 {
   "rules": [
-    "^/apitest/(.*)$ https://53greenst1-5003.terminal.com/explorer/ [P]",
-    "^/api/(.*)$ http://localhost:3002/api/$1 [P]"
+    "^/api/(.*)$ http://localhost:3002/api/$1 [P]",
+    "^/www/(.*)$ http://localhost:5002/$1 [P]"
   ]
 }

@@ -14,7 +14,8 @@
     "api"
   ],
   "scripts": {
-    "pretest": "jshint ."
+    "pretest": "jshint .",
+    "start": "sudo supervisor -w '.' node ."
   },
   "dependencies": {
     "compression": "^1.0.3",

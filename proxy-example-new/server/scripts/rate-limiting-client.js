@@ -7,7 +7,7 @@ var form = {
 
 // Request the access token
 request.post({
-  url: 'https://localhost:3001/oauth/token',
+  url: 'https://localhost:80/oauth/token',
   headers: {
     'Content-Type': 'application/x-www-form-urlencoded',
     'Accept': 'application/json'
@@ -26,7 +26,7 @@ request.post({
 
   // Request a protected resources in a loop
   for (var i = 0; i < 150; i++) {
-    request.get('https://localhost:3001/api/notes?access_token=' + obj.access_token,
+    request.get('https://localhost:80/api/notes?access_token=' + obj.access_token,
       {strictSSL: false},
       function(err, res) {
         console.log('Limit %d Remaining: %d Reset: %d',

@@ -34,7 +34,7 @@ var form = {
 
 var request = require('request');
 request.post({
-  url: 'https://localhost:3001/oauth/token',
+  url: 'https://localhost:80/oauth/token',
   headers: {
     'Content-Type': 'application/x-www-form-urlencoded'
   },
