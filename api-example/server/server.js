@@ -1,6 +1,15 @@
 var loopback = require('loopback');
 var boot = require('loopback-boot');
 var cors = require('cors');
+require('magic-globals');
+
+console.log('__line: ' + __line);
+console.log('__file: ' + __file); 
+console.log('__ext: ' + __ext); 
+console.log('__base: ' + __base);
+console.log('__filename: ' + __filename);
+console.log('__dirname: ' + __dirname);
+
 
 
 var app = module.exports = loopback();
@@ -23,6 +32,8 @@ boot(app, __dirname);
 // Example:
 //   var path = require('path');
 //   app.use(loopback.static(path.resolve(__dirname, '../client')));
+var dataio = require('../data.io/server/ws-server');
+
 
 // Requests that get this far won't be handled
 // by any middleware. Convert them into a 404 error
